@@ -5,8 +5,8 @@ describe("Creating new cells with factory function", () => {
         const cell = GameboardCell();
         expect(cell.isUntouched()).toBe(true);
     })
-    it("Should return true when calling isEmpty() on a new cell", () => {
+    it("Should return false when calling isOccupied() on a new cell", () => {
         const cell = GameboardCell();
-        expect(cell.isEmpty()).toBe(true);
+        expect(cell.isOccupied()).toBe(false);
     })
 })

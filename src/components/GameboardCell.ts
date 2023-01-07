@@ -1,18 +1,18 @@
 interface GameboardCell {
     untouched: boolean;
-    empty: boolean;
+    occupied: boolean;
     isUntouched(): boolean;
-    isEmpty(): boolean;
+    isOccupied(): boolean;
 }
 const GameboardCell = (): GameboardCell => {
     return {
         untouched: true,
-        empty: true,
+        occupied: false,
         isUntouched() {
             return this.untouched;
         },
-        isEmpty() {
-            return this.empty;
+        isOccupied() {
+            return this.occupied;
         }
     }
 }
