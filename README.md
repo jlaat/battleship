@@ -1,4 +1,4 @@
 # Battleship Game
-Main purpose of this project is to practice Test Driven Development, and TypeScript. Still in development.
+Main purpose of this project is to practice Test Driven Development, and TypeScript. 
 
 
